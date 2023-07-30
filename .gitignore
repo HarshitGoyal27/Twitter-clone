@@ -1,3 +1,26 @@
 xyz.txt
 branch1.txt
-branch2.tct
+branch2.txt
+index.html
+files committed before would still be tracked by git even if you place them in .gitignore
+
+REVISION OF GIT BRANCHES COMMANDS::
+#always have a clean working tree (commit) while switching branches otherwise it would be counted in merged branches 
+
+#1) To add a new branch:-
+a. git branch temp1
+b. git checkout -b temp1 
+
+#2) To switch the branches:-
+git checkout temp1
+
+#3) To merge the branches:-
+git merge temp1
+
+#4) To delete the branches:-
+a. git branch -d temp1 (For merged branches)
+b. git branch -D temp1 (For unmerged branches)
+
+
+
+
